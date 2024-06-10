@@ -1,11 +1,12 @@
-import 'package:learntomock/learntomock.dart';
-import 'package:learntomock/remote.dart';
-import 'package:learntomock/tv.dart';
+import 'package:learntomock/features/tv_remote/tv_remote.dart';
+import 'package:learntomock/features/tv_remote/remote.dart';
+import 'package:learntomock/features/tv_remote/tv.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 import 'package:test/test.dart';
 
-import 'learntomock_test.mocks.dart';
+import 'tv_remote_test.mocks.dart';
+
 
 @GenerateMocks([TVService])
 void main() {

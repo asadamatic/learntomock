@@ -1,4 +1,4 @@
-import 'package:learntomock/tv.dart';
+import 'package:learntomock/features/tv_remote/tv.dart';
 
 class RemoteService {
   final TVService _tvService;

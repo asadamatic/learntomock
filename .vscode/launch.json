@@ -5,8 +5,9 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "learntomock",
+            "name": "TV Remote",
             "request": "launch",
+            "program": "lib/features/tv_remote/tv_remote.dart",
             "type": "dart"
         }
     ]

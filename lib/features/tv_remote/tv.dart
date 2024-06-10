@@ -13,5 +13,10 @@ class TVService {
     return volume = newVolume;
   }
 
-  double decreaseVolume(double newVolume) => volume = newVolume;
+  double decreaseVolume(double newVolume) {
+    if (newVolume < 0) {
+      throw Exception();
+    }
+    return volume = newVolume;
+  }
 }
